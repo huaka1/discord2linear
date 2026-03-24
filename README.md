@@ -3,10 +3,6 @@
 将 Discord 消息转到 Linear 的 Bot 服务。
 
 ## 功能
-<img width="1748" height="1350" alt="image" src="https://github.com/user-attachments/assets/10b468ab-9a0a-4649-bb16-a2be5cee49be" />
-<img width="3042" height="1744" alt="image" src="https://github.com/user-attachments/assets/bf989dc3-8d57-4a22-879a-208038b460f9" />
-
-
 - 监听 `📌` reaction（忽略 bot 用户）
 - 读取消息纯文本，空文本回复 `无可保存内容`
 - 调用 Linear GraphQL `issueCreate` 创建任务
