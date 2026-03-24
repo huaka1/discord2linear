@@ -1,0 +1,11 @@
+services:
+  bot:
+    build: ./bot
+    environment:
+      DISCORD_TOKEN: ${DISCORD_TOKEN}
+      LINEAR_API_KEY: ${LINEAR_API_KEY}
+      LINEAR_TEAM_KEY: ${LINEAR_TEAM_KEY}
+      LINEAR_PROJECT_ID: ${LINEAR_PROJECT_ID}
+      LLM_BASE_URL: ${LLM_BASE_URL}
+      LLM_API_KEY: ${LLM_API_KEY}
+      LLM_MODEL: ${LLM_MODEL}
